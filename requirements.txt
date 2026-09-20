@@ -1,0 +1,15 @@
+# MIV Morogoro — Python Dependencies
+# Sakinisha kwa amri: pip install -r requirements.txt
+
+flask==3.0.3               # Web framework
+flask-sqlalchemy==3.1.1    # ORM — Python ↔ Database
+bcrypt==4.1.3              # Password hashing (usalama)
+python-dotenv==1.0.1       # Soma .env file (nywila za siri)
+
+# Sprint 3 tutaongeza:
+# reportlab==4.2.0         # PDF generation
+# pandas==2.2.0            # CSV + data analysis
+
+# Sprint 5 (production):
+# gunicorn==22.0.0         # WSGI server
+# psycopg2-binary==2.9.9   # PostgreSQL driver
